@@ -150,7 +150,7 @@
         <div class="text-center">
           <h3>Ready to Start Learning?</h3>
           <p>Join thousands of students who have transformed their careers with our expert trainers. Get personalized guidance and hands-on experience in your chosen field.</p>
-          <a class="cta-btn" href="{{ route('courses') }}">Explore Our Courses</a>
+          <a class="cta-btn" href="{{ route('public.courses') }}">Explore Our Courses</a>
         </div>
       </div>
     </div>

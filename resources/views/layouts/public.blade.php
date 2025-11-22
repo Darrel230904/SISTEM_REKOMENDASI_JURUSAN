@@ -35,17 +35,17 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="{{ route('home') }}" class="{{ Request::is('/') ? 'active' : '' }}">Home<br></a></li>
-          <li><a href="{{ route('about') }}" class="{{ Request::is('about') ? 'active' : '' }}">About</a></li>
-          <li><a href="{{ route('courses') }}" class="{{ Request::is('courses') ? 'active' : '' }}">Courses</a></li>
-          <li><a href="{{ route('trainers') }}" class="{{ Request::is('trainers') ? 'active' : '' }}">Trainers</a></li>
-          <li><a href="{{ route('events') }}" class="{{ Request::is('events') ? 'active' : '' }}">Events</a></li>
-          <li><a href="{{ route('pricing') }}" class="{{ Request::is('pricing') ? 'active' : '' }}">Pricing</a></li>
-          <li><a href="{{ route('contact') }}" class="{{ Request::is('contact') ? 'active' : '' }}">Contact</a></li>
+          <li><a href="{{ route('public.about') }}" class="{{ Request::is('public/about') ? 'active' : '' }}">About</a></li>
+          <li><a href="{{ route('public.courses') }}" class="{{ Request::is('public/courses') ? 'active' : '' }}">Courses</a></li>
+          <li><a href="{{ route('public.trainers') }}" class="{{ Request::is('public/trainers') ? 'active' : '' }}">Trainers</a></li>
+          <li><a href="{{ route('public.events') }}" class="{{ Request::is('public/events') ? 'active' : '' }}">Events</a></li>
+          <li><a href="{{ route('public.pricing') }}" class="{{ Request::is('public/pricing') ? 'active' : '' }}">Pricing</a></li>
+          <li><a href="{{ route('public.contact') }}" class="{{ Request::is('public/contact') ? 'active' : '' }}">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="{{ route('courses') }}">Get Started</a>
+      <a class="btn-getstarted" href="{{ route('public.courses') }}">Get Started</a>
 
     </div>
   </header>

@@ -34,7 +34,7 @@
           <li><i class="bi bi-check-circle"></i> <span>Flexible scheduling to accommodate different lifestyles</span></li>
           <li><i class="bi bi-check-circle"></i> <span>Comprehensive support from enrollment to career placement</span></li>
         </ul>
-        <a href="{{ route('contact') }}" class="read-more"><span>Contact Us</span><i class="bi bi-arrow-right"></i></a>
+        <a href="{{ route('public.contact') }}" class="read-more"><span>Contact Us</span><i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
   </div>
