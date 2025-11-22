@@ -45,7 +45,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="{{ route('public.courses') }}">Get Started</a>
+      <a class="btn-getstarted" href="{{ route('admin.login') }}">LOGIN ADMIN</a>
 
     </div>
   </header>

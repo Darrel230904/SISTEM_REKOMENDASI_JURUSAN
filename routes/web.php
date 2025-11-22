@@ -23,6 +23,8 @@ Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('/charts', [AdminController::class, 'charts'])->name('charts');
     Route::get('/tables', [AdminController::class, 'tables'])->name('tables');
     Route::get('/login', [AdminController::class, 'login'])->name('login');
+    Route::post('/login', [AdminController::class, 'loginProcess'])->name('login.process');
+    Route::get('/logout', [AdminController::class, 'logout'])->name('logout');
     Route::get('/register', [AdminController::class, 'register'])->name('register');
     Route::get('/forgot-password', [AdminController::class, 'forgotPassword'])->name('forgot-password');
     Route::get('/401', [AdminController::class, 'error401'])->name('error.401');
